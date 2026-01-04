@@ -7,7 +7,7 @@ class Klass:
 		self.num = num
 		self.content = content
 
-	# instance method
+	# instance method（selfが必要！！！）
 	def output(self):
 		print(f'{self.content}')
 
